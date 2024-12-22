@@ -25,11 +25,13 @@ main {
 img {
   position:relative;
   border-radius: 1rem;
+  z-index: 1;
 }
 
 .over {
   position:relative;
   bottom:4rem;
+  z-index: 2;
 }
 
 h1 {
@@ -59,12 +61,14 @@ hr {
   justify-self: center;
   flex-direction: row;
   margin-bottom:1rem;
+  width:70vh;
 }
 
 .emjio {
   font-size: 2rem;
   color: #111729;
   margin-right: 1rem;
+  margin-left: 1rem;
   width: 10%;
   height:10%; 
   border-radius: 50%;
