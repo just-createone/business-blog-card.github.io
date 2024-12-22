@@ -6,62 +6,61 @@
 
 body {
   height: 100vh;
-  background-color: #F2F5F9;
+  background-color: #f2f5f9;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 main {
-  width:70vh;
+  width: 70vh;
   height: auto;
   background-color: #ffff;
   border-radius: 1rem;
-  margin:0;
-  position:relative;
-  
+  margin: 0;
+  position: relative;
 }
 
 img {
-  position:relative;
+  width:100%;
+  position: relative;
   border-radius: 1rem;
   z-index: 1;
 }
 
 .over {
-  position:relative;
-  bottom:4rem;
+  position: relative;
+  bottom: 4rem;
   z-index: 2;
 }
 
 h1 {
-
-  font-size:1.5rem;
-  color:#111729;
-  margin-top:-4rem;
-  margin-left:1rem;
+  font-size: 1.5rem;
+  color: #111729;
+  margin-top: -4rem;
+  margin-left: 1rem;
 }
 
 .description {
-  font-size:1rem;
-  color:#4A5567;
-  margin-top:1rem;
-  margin-left:1rem;
+  font-size: 1rem;
+  color: #4a5567;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 hr {
   width: 100%;
-  border-top: 1.5px solid #F2F5F9;
+  border-top: 1.5px solid #f2f5f9;
   margin: 1rem 0;
 }
 
 .name {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-self: center;
   flex-direction: row;
-  margin-bottom:1rem;
-  width:70vh;
+  margin-bottom: 1rem;
+  width: 70vh;
 }
 
 .emjio {
@@ -70,17 +69,16 @@ hr {
   margin-right: 1rem;
   margin-left: 1rem;
   width: 10%;
-  height:10%; 
+  height: 10%;
   border-radius: 50%;
-  box-shadow: 0 0 0 0.3rem #F2F5F9;
-
+  box-shadow: 0 0 0 0.3rem #f2f5f9;
 }
 
 strong {
- color:#111729;
+  color: #111729;
 }
 
 .amy {
-  font-size:1rem;
-  color:#4A5567;
+  font-size: 1rem;
+  color: #4a5567;
 }
